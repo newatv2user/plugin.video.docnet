@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.docnet"
+       name="Documentary.Net"
+       version="0.0.1"
+       provider-name="newatv2user">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.parsedom" version="0.9.0"/>
+    <import addon="script.module.videohosts.beta" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch the best free documentaries online.</summary>
+    <description lang="en">We offer legal high quality documentaries to stream and download for free. Only the best films get selected by us to guarantee quality content. Our docs educate, entertain, inform, teach, shock, explain. You get deeper insights, increase your knowledge and maybe gain some new perspectives.</description>
+     <platform>all</platform>
+  </extension>
+</addon>
